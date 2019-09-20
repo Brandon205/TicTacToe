@@ -1,6 +1,32 @@
 body {
-    
+    width: 850;
+    margin: 0 auto;
+    text-align: center;
 }
-table {
 
+h1 {
+    border-bottom: 2px dashed blue;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+button {
+    padding: 5px;
+}
+
+.board {
+    border: 3px solid black;
+    margin: 40px auto 30px auto;
+}
+
+.tile {
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    text-align: center;
+    border: 1px solid black;
 }
